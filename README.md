@@ -18,7 +18,7 @@ $uri = $uri_maker->make($params);
 
 ## Options
 ### base32_encode
-If you want to specify a secret that is not base32 encoded, set `base32_encode` option to `true`. (Default false)
+If you want to specify a secret that is not base32 encoded, set `base32_encode` option to `true`. (Default `false`)
 ```PHP
 $params['secret'] = '7$#vy+bs$m'; // Not Base32 encoded.
 $params['base32_encode'] = true;
